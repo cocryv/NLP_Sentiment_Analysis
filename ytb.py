@@ -124,5 +124,5 @@ df.dropna()
 
 print(df['Comments'])
 
-# transform to csv as : video_id,comment_text,likes,replies
+# transform to csv 
 df.to_csv('comments.csv', index=False)
